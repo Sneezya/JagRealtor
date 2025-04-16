@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@types/nodemailer": "^6.4.17",
+    "nodemailer": "^6.10.1"
+  }
+}
