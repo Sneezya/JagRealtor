@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     domains: [
       'images.unsplash.com',
       'placehold.co',
@@ -9,6 +11,7 @@ const nextConfig = {
       'storage.sub-ca.incomrealestate.com'
     ],
   },
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
